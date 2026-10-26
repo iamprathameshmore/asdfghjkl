@@ -1,8 +1,8 @@
 import "./App.css";
-import WindReadingsPage from "./features/wind/pages/WindReadingsPage";
+import Dashboard from "./features/dashboard/dashboard";
 
 function App() {
-  return <WindReadingsPage />;
+  return <Dashboard />;
 }
 
 export default App;

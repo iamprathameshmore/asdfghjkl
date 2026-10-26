@@ -8,12 +8,12 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from fastapi.staticfiles import StaticFiles
 
-from config.db import (
+from src.config.db import (
     check_database_connection,
     close_mongodb_connection,
     connect_to_mongodb,
 )
-from features.wind.controllers.wind_controller import router as wind_router
+from src.features.wind.controllers.wind_controller import router as wind_router
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)

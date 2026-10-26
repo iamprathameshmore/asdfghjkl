@@ -5,7 +5,7 @@ from zoneinfo import ZoneInfo
 import pandas as pd
 from pymongo.database import Database
 
-from config.constants import Collections
+from src.config.constants import Collections
 
 LONDON = ZoneInfo("Europe/London")
 UTC = timezone.utc

@@ -6,16 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import type { WindQuery } from "../wind/services/wind.service";
 import useWind from "../wind/hooks/useWind";
 import WindReadingsTable from "../wind/components/WindReadingsTable";
-
-function formatNumber(value: number | null | undefined): string {
-  if (value == null || !Number.isFinite(value)) {
-    return "—";
-  }
-
-  return new Intl.NumberFormat("en-GB", {
-    maximumFractionDigits: 2,
-  }).format(value);
-}
+import formatNumber from "@/utils/format-number";
 
 function MetricCard({
   title,

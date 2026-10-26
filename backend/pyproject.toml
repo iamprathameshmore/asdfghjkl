@@ -4,10 +4,7 @@ name = "wind-forecast-portal"
 version = "0.1.0"
 description = "UK wind generation forecast analysis dashboard"
 authors = ["Developer"]
-package-mode = true
-packages = [
-    { include = "wind_forecast", from = "backend/src" }
-]
+package-mode = false
 
 [tool.poetry.dependencies]
 python = ">=3.12,<3.14"
@@ -16,6 +13,7 @@ uvicorn = { version = "^0.34", extras = ["standard"] }
 httpx = "^0.28"
 pandas = "^2.2"
 pydantic-settings = "^2.7"
+pymongo = "^4.19.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3"
@@ -23,8 +21,11 @@ pytest-asyncio = "^0.25"
 ruff = "^0.9"
 
 [tool.pytest.ini_options]
-testpaths = ["backend/tests"]
+testpaths = ["tests"]
 asyncio_mode = "auto"
+
+[tool.poetry.scripts]
+start = "run:main"
 
 [tool.ruff]
 line-length = 100

@@ -3,34 +3,8 @@ import type { ColumnDef } from "@tanstack/react-table";
 import { DataTable, type DataTableFilter } from "@/components/common/DataTable";
 
 import type { WindForecastStatus, WindReading } from "../types/wind.types";
-
-function formatNumber(value: number | null | undefined): string {
-  if (value == null || !Number.isFinite(value)) {
-    return "—";
-  }
-
-  return new Intl.NumberFormat("en-GB", {
-    maximumFractionDigits: 2,
-  }).format(value);
-}
-
-function formatDateTime(value: string | null | undefined): string {
-  if (!value) {
-    return "—";
-  }
-
-  const date = new Date(value);
-
-  if (Number.isNaN(date.getTime())) {
-    return value;
-  }
-
-  return new Intl.DateTimeFormat("en-GB", {
-    dateStyle: "short",
-    timeStyle: "short",
-    timeZone: "Europe/London",
-  }).format(date);
-}
+import formatDateTime from "@/utils/format-date-time";
+import formatNumber from "@/utils/format-number";
 
 function getForecastStatus(row: WindReading): WindForecastStatus {
   if (row.actual_generation_mw == null) {

@@ -4,8 +4,8 @@ from datetime import date
 from fastapi import APIRouter, HTTPException, Query
 from pymongo.errors import PyMongoError
 
-from config.db import get_database
-from features.wind.services.analysis_service import analyse_wind
+from src.config.db import get_database
+from src.features.wind.services.analysis_service import analyse_wind
 
 router = APIRouter(prefix="/api/v1/wind", tags=["Wind"])
 
