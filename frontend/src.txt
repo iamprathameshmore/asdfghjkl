@@ -1,0 +1,93 @@
+ Volume in drive P is New Volume
+ Volume Serial Number is FC06-7E96
+
+ Directory of P:\project\Gridbricks\frontend\src
+
+[.]          App.tsx      [features]   [lib]        
+[..]         [assets]     [hooks]      main.tsx     
+App.css      [components] index.css    [ui]         
+               4 File(s)          8,960 bytes
+
+ Directory of P:\project\Gridbricks\frontend\src\assets
+
+[.]         [..]        hero.png    react.svg   vite.svg    
+               3 File(s)         25,892 bytes
+
+ Directory of P:\project\Gridbricks\frontend\src\components
+
+[.]  [..] 
+               0 File(s)              0 bytes
+
+ Directory of P:\project\Gridbricks\frontend\src\features
+
+[.]    [..]   [wind] 
+               0 File(s)              0 bytes
+
+ Directory of P:\project\Gridbricks\frontend\src\features\wind
+
+[.]          [components] [pages]      
+[..]         [hooks]      [services]   
+               0 File(s)              0 bytes
+
+ Directory of P:\project\Gridbricks\frontend\src\features\wind\components
+
+[.]                     WindReadingsTable.tsx   
+[..]                    
+               1 File(s)              0 bytes
+
+ Directory of P:\project\Gridbricks\frontend\src\features\wind\hooks
+
+[.]          [..]         useWind.ts   
+               1 File(s)              0 bytes
+
+ Directory of P:\project\Gridbricks\frontend\src\features\wind\pages
+
+[.]                    WindReadingsPage.tsx   
+[..]                   
+               1 File(s)              0 bytes
+
+ Directory of P:\project\Gridbricks\frontend\src\features\wind\services
+
+[.]               [..]              wind.service.ts   
+               1 File(s)              0 bytes
+
+ Directory of P:\project\Gridbricks\frontend\src\hooks
+
+[.]                       use-highlighted-code.ts   
+[..]                      use-mobile.ts             
+               2 File(s)          2,626 bytes
+
+ Directory of P:\project\Gridbricks\frontend\src\lib
+
+[.]               [..]              highlighter.tsx   
+               1 File(s)          3,557 bytes
+
+ Directory of P:\project\Gridbricks\frontend\src\ui
+
+[.]                    context-menu.tsx       progress.tsx
+[..]                   dialog.tsx             questionnaire.tsx
+accordion.tsx          direction.tsx          radio-group.tsx
+alert-dialog.tsx       drawer.tsx             resizable.tsx
+alert.tsx              dropdown-menu.tsx      scroll-area.tsx
+aspect-ratio.tsx       empty.tsx              select.tsx
+attachment.tsx         field.tsx              separator.tsx
+avatar.tsx             hover-card.tsx         sheet.tsx
+badge.tsx              input-group.tsx        sidebar.tsx
+breadcrumb.tsx         input-otp.tsx          skeleton.tsx
+bubble.tsx             input.tsx              slider.tsx
+button-group.tsx       item.tsx               spinner.tsx
+button.tsx             kbd.tsx                switch.tsx
+calendar.tsx           label.tsx              table.tsx
+card.tsx               marker.tsx             tabs.tsx
+carousel.tsx           menubar.tsx            textarea.tsx
+chart.tsx              message-scroller.tsx   toast.tsx
+checkbox.tsx           message.tsx            toggle-group.tsx
+code-block.tsx         native-select.tsx      toggle.tsx
+collapsible.tsx        navigation-menu.tsx    tooltip.tsx
+combobox.tsx           pagination.tsx         trace.tsx
+command.tsx            popover.tsx            
+              63 File(s)        255,228 bytes
+
+     Total Files Listed:
+              77 File(s)        296,263 bytes
+              35 Dir(s)  26,864,001,024 bytes free
